@@ -18,8 +18,8 @@ Dir.glob('lib/capistrano/tasks/*.rb').each { |r| import r }
 
 
 #以下はcap production deployしたときに出たエラーの指示により記載
-require "capistrano/scm/git"
-install_plugin Capistrano::SCM::Git
+# require "capistrano/scm/git"
+# install_plugin Capistrano::SCM::Git
 
 
 
